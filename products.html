@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+body {margin:0;
+    width: 100%;
+    height: 100vh;
+    padding-left: 4%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.navbar{
+    height: 66px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid goldenrod;
+}
+.logo{
+    width: 75px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:goldenrod;
+    font-size: 20px;
+}
+.section-body{
+    
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.section-body h2{
+    color: goldenrod;
+}
+
+.section-body h4{
+    font-size: large;
+    color: #4F0016;
+}
+
+.section-body ul {
+    list-style-type: none;
+    width: 200%;
+    background-color: #FFDCCE;
+    height: auto;
+    overflow: auto;
+    transform: translateY(45px);
+  }
+  
+  .section-body  li a {
+    display: block;
+    color:#4F0016;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .card{
+    border: 1px solid #ccc;
+    transition: transform 0.5s;
+  }
+  
+  .card:hover {
+    border: 1px solid gold;
+    transform: translateY(-10px);
+  }
+  
+.gallery{
+    
+    display: flex;
+    flex-direction: row; 
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+div.desc {
+    text-align: center;
+    width: 100%;
+ }
+ div.desc p{
+    font-size: 18px;
+    color: darkgoldenrod;
+    text-align: center;
+    text-shadow: 0 0 5px #4F0016;
+ }
+
+ .gallery img{
+    height: 250px;
+    width:200px;
+}
+
+        </style>
+        <title>Products</title>
+    </head>
+    <body style="background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)), url(images/library.jpg);">
+        <div class="navbar">
+            <img src="images/logo2.png" class="logo">
+            <nav>
+                <ul class="container-sm md lg xl xxl">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="Testimonials 2.html">Testimonials</a></li>
+                    <li><a href="SiteMap 2.html">Sitemap</a></li>
+                    <li><a href="About-Us2.html">About Us</a></li>
+                    <li><a href="Contact-Us2.html">Contact us</a></li>
+                    <li><a href="bookRecommendator.html">Find Your Genre!</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="section-body">
+                              <div class="gallery-main" style="margin-left:25%;padding:1px 16px;">
+                                    <div class="New Additions" id="NewAdditions">
+                                        <h2>New Additions</h2>
+                                        <div class="gallery">
+                                            <div class="card">
+                                                    <img src="images/book2.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Charles Dickens</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                    <img src="images/book1.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Agatha Christie</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                    <img src="images/book3.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Agatha Christie</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                    <img src="images/book4.jpg">
+                                                <div class="desc">
+                                                    <P>Author: Paulo Coelho</P>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                    <img src="images/book5.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Victoria Lee</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                        <div class="Thriller" id="Thriller">
+                                            <h2>Thriller</h2>
+                        
+                                            <div class="gallery">
+                                                <div class="card">
+
+                                                        <img src="images/thriller1.jpg">
+
+                                                    <div class="desc">
+                                                        <p>Author: Dan Brown</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card">
+                                                    <img src="images/thriller2.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Katherine Quinn</p>
+                                                </div>
+                                            </div>
+                                              <div class="card">
+                                                    <img src="images/thriller3.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Agatha Christie</p>
+                                                </div>
+                                            </div>
+                        
+                                            <div class="card">
+                                                    <img src="images/thriller4.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Stephen King</p>
+                                                </div>
+                                            </div>
+                        
+                                            <div class="card">
+                                                    <img src="images/thriller5.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Agatha Christie</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <div class="Literature col-md-3" id="Literature">
+                                        <h2>Literature</h2>
+                                       
+                                            <div class="gallery">
+                                                <div class="card">
+
+                                                        <img src="images/lit1.webp">
+
+                                                    <div class="desc">
+                                                        <p>Author: Fyodor Dostoevsky</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card">
+                                                    <img src="images/lit2.jpg">
+                                                <div class="desc">
+                                                    <p>Author:  Franz Kafka</p>
+                                                </div>
+                                            </div>
+                                              <div class="card">
+                                                    <img src="images/lit3.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Harper Lee</p>
+                                                </div>
+                                            </div>
+                        
+                                            <div class="card">
+                                                    <img src="images/lit4.jpg">
+                                                <div class="desc">
+                                                    <p>Author:  George Orwell</p>
+                                                </div>
+                                            </div>
+                        
+                                            <div class="card">
+                                                    <img src="images/lit5.jpg">
+                                                <div class="desc">
+                                                    <p>Author: F. Scott Fitzgerald</p>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    <div class="Mystery" id="Mystery">
+                                        <h2>Mystery</h2>
+                                            <div class="gallery">
+                                                <div class="card">
+
+                                                        <img src="images/mystery1.jpg">
+
+                                                    <div class="desc">
+                                                        <p>Author: Raymond Chandler</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <img src="images/mystery2.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Truman Capote</p>
+                                                </div>
+                                            </div>
+                                              <div class="card">
+                                                    <img src="images/mystery3.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Stieg Larsson</p>
+                                                </div>
+                                            </div>
+                        
+                                            <div class="card">
+                                                    <img src="images/mystery4.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Josephine Tey</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                    <img src="images/mystery5.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Kate Atkinson</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="Fantasy" id="Fantasy">
+                                        <h2>Fantasy</h2>
+                                            <div class="gallery">
+                                                <div class="card">
+
+                                                        <img src="images/fantasy1.jpg">
+
+                                                    <div class="desc">
+                                                        
+                                                        <p>Author: Amro Abdulhameed</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <img src="images/fantasy2.jpg">
+                                                <div class="desc">
+                                                    <p>Author: J. K. Rowling</p>
+                                                </div>
+                                            </div>
+                                              <div class="card">
+                                                    <img src="images/fantasy3.jpg">
+                                                <div class="desc">
+                                                    <p>Author: J. R. R. Tolkien</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                    <img src="images/fantasy4.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Richard Adams</p>
+                                                </div>
+                                            </div>
+                        
+                                            <div class="card">
+                                                    <img src="images/fantasy5.jpg">
+                                                <div class="desc">
+                                                    <p>Author: George R. R. Martin</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="Historical" id="Historical">
+                                        <h2>Historical</h2>   
+                                            <div class="gallery">
+                                                <div class="card">
+
+                                                        <img src="images/historical1.jpg">
+
+                                                    <div class="desc">
+                                                        <p>Author: Umberto Eco</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <img src="images/historical2.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Anthony Doerr</p>
+                                                </div>
+                                            </div>
+                                              <div class="card">
+                                                    <img src="images/historical3.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Ken Follett</p>
+                                                </div>
+                                            </div>
+                        
+                                            <div class="card">
+                                                    <img src="images/historical4.jpg">
+                                                <div class="desc">
+                                                    <p>Author: R. F. Kuang</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                    <img src="images/Historical5.jpg">
+                                                <div class="desc">
+                                                    <p>Author: Shelly Parker</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                    <h2 style="text-align: center;">Stay Tuned!<br>More To Be Added In The Future!</h2>   
+                            </div>
+                              </div>
+                            </div>
+                            
+                        </body>
+                    </html>

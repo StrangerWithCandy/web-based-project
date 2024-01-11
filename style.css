@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    position: relative;
+}
+.logo{
+    width: 75px;
+    cursor: pointer;
+}
+.navbar{
+    height: 66px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid goldenrod;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:goldenrod;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    height: 60%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+    
+}
+h1{
+    color: goldenrod;
+    font-size: 100px;  
+}
+p{
+    color: goldenrod;
+    font-size: 15px;
+    line-height: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 0 0 5px black;
+}
+button{
+    width: 180px;
+    color: goldenrod;
+    font-size: 12px;
+    padding: 12px 0;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    transition: transform 0.5s;
+}
+button:hover{
+    background-color: bisque;
+    transform: translateY(-10px);
+}
+
+.card{
+    width: 240px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url(images/book1.jpg);
+}
+.card2{
+    background-image: url(images/book2.jpg);
+}
+.card3{
+    background-image: url(images/book3.jpg);
+}
+.card4{
+    background-image: url(images/book4.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+.Greetings {
+    position: absolute;
+    left: 50%;
+    top: 70%; 
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.Greetings p {
+    font-size: 28px;
+    line-height: 1.5px;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+        .card{
+            width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+
+        .Greetings {
+            position: static;
+            transform: none;
+            width: auto;
+            margin-top: 30px;
+        }
+
+        .Greetings p {
+            font-size: 20px;
+            line-height: 1.2;
+            text-align: center;
+        }
+
+        .row{
+            display: block;
+            height: auto;
+        }
+
+        .col{
+            flex-basis: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+    
+    .card {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+        position: relative;
+        right: -50px;
+        bottom: -30px;
+    }
+    .Greetings {
+    position: absolute;
+    left: 50%;
+    top: 70%; 
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.Greetings p {
+    font-size: 16px;
+    line-height: 1.5px;
+    text-align: center;
+}
+}
+@media only screen and (min-width: 1024px){
+    .card {
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+        position: relative;
+        right: -50px;
+        bottom: -30px;
+    }
+    .Greetings p {
+    font-size: 16px;
+    line-height: 1.5px;
+    text-align: center;
+}
+nav ul li a{
+    font-size: 15px;
+}
+}
+@media only screen and (max-width: 425px){
+    .Greetings p {
+    font-size: 10px;
+    line-height: 1.5px;
+    text-align: center;
+    transform: translateY(320%);
+}
+}

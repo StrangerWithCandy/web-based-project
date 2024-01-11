@@ -1,0 +1,119 @@
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(/images/bg2.jpg);
+    background-size: cover;}
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;}
+.contact .content h2
+{
+    font-size: 36px;
+    font-weight: 500;
+color: goldenrod;}
+.contact .content  p
+{
+    font-weight:200;
+    color: white;
+    font-size:larger;}
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;}
+.cont .contactInfo{
+width: 50%;
+display: flex;
+flex-direction: column;}
+.cont .contactInfo .box{
+    position:relative;
+    padding: 20px 0;
+    display:flex;
+    color: wheat;}
+.cont .contactInfo .box .text {
+display: flex;
+margin-left: 20px;
+font-size: 16px;
+color:white;
+flex-direction: column;
+font-weight: 300;}
+.cont .contactInfo .box .text h3{
+font-weight: 500;
+color: wheat;}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background:beige;}
+.contactForm h2{
+    font-size: 30px;
+    color: black;
+    font-weight: 500;}
+
+    /*about us page:*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;}
+body{
+    background-color:black;}
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;}
+.heading h1{
+    font-size: 50px;
+    color: goldenrod;
+    margin-bottom: 25px;
+    position: relative;}
+.heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color:goldenrod;}
+.heading p{
+    font-size: 18px;
+    color: goldenrod;
+    margin-bottom: 35px;}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px ;}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;}
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;}
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;}
+.about-content{
+    flex: 1;}
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: gold;}
+.about-content p{
+font-size: 18px;
+line-height: 1.5;
+color:goldenrod;}
